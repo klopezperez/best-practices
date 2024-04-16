@@ -49,6 +49,32 @@ def zen(with_attribution=True):
 
     return quote
 
+def calculate_center_of_mass(symbols, coordinates):
+    """Calculate the center of mass of a molecule.
+    
+    The center of mass is weighted by each atom's weight.
+    
+    Parameters
+    ----------
+    symbols : list
+        A list of elements for the molecule
+    coordinates : np.ndarray
+        The coordinates of the molecule.
+    
+    Returns
+    -------
+    center_of_mass: np.ndarray
+        The center of mass of the molecule.
+    
+    Notes
+    -----
+    The center of mass is calculated with the formula
+    
+    .. math:: \\vec{R}=\\frac{1}{M} \\sum_{i=1}^{n} m_{i}\\vec{r_{}i}
+    
+    """
+
+
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
