@@ -6,3 +6,4 @@ from .measure import calculate_angle, calculate_distance
 from .functions import calculate_center_of_mass
 from .molecule import build_bond_list
 from .visualize import bond_histogram, draw_molecule
+import numpy as np

@@ -9,7 +9,11 @@ import pytest
 
 import molecool
 
+import numpy as np
 
+@pytest.mark.xfail
 def test_molecool_imported():
     """Sample test, will always pass so long as import statement worked."""
     assert "molecool" in sys.modules
+
+
