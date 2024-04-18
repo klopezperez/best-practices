@@ -10,7 +10,20 @@ dependencies:
   - pip
   - numpy
   - scipy
-  
+  - matplotlib
+  - pytest
+  - pytest-cov
+  - codecov
+  - jupyter
+  - nbconvert
+  - nbformat
+  - ipykernel
+  - ipython
+  - jupyterlab
+  - jupyterlab_widgets
+  - nodejs
+  - jupyterlab_code_formatter
+
 
     # Testing
   - pytest
